@@ -14,9 +14,9 @@ body{
     -moz-box-shadow: 0px 5px 20px 5px rgba(0,0,0,0.41);
     box-shadow: 0px 5px 20px 5px rgba(0,0,0,0.41);
 }
-.logo_image{
-    display: block;
-    margin: 0;
+h1
+{
+    font-size: 40px;
 }
 
 /*MENU*/
@@ -96,7 +96,7 @@ menu{
     width: 30%;
    // border: 1px solid #a3a1a1;
 }
-.sidebar li{
+.sidebar_ul li{
     border-top: 1px solid #a3a1a1;
     border-left: 1px solid #a3a1a1;
     border-right: 1px solid #a3a1a1;
@@ -159,7 +159,6 @@ p{
     list-style-type: none;
 }
 .menu_footer li{
-    display: inline;
     float:left;
     line-height: 25px;
     margin: 0;
